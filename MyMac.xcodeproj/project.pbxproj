@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2068027B2D2467900071DB26 /* MyMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyMac; sourceTree = BUILT_PRODUCTS_DIR; };
+		206802852D2467970071DB26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +45,7 @@
 		206802722D2467900071DB26 = {
 			isa = PBXGroup;
 			children = (
+				206802852D2467970071DB26 /* README.md */,
 				2068027D2D2467900071DB26 /* MyMac */,
 				2068027C2D2467900071DB26 /* Products */,
 			);
