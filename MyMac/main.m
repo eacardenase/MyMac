@@ -9,8 +9,10 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSHost *myMac = [NSHost currentHost];
+        NSString *myMacName = [myMac localizedName];
+        
+        NSLog(@"\"%@\" it's the name of my Mac.", myMacName);
     }
     return 0;
 }
